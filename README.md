@@ -47,7 +47,7 @@ The goal of this project is to explore various digital signal processing techniq
 - **Tasks**:
   - Design FIR filters using different methods such as `fir1()`, `firls()`, and `firpm()`.
   - Apply the filters to noisy signals and compare their effectiveness using MSE values.
-  - Investigate the effect of different filter lengths on noise reduction&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+  - Investigate the effect of different filter lengths on noise reduction &#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
 
 **Key MATLAB Functions**:
   - `fir1()`, `firls()`, `firpm()`: FIR filter design.
@@ -70,26 +70,7 @@ The goal of this project is to explore various digital signal processing techniq
    ```bash
    git clone https://github.com/your-username/digital-signal-processing-lab.git
     ```
-## Usage
-
-To run the MATLAB scripts for each lab exercise:
-
-- **Lab 1 (Signal Sampling and Reconstruction)**:
-    ```matlab
-    run('lab1_sampling.m');
-    ```
-
-- **Lab 2 (System Analysis and Convolution)**:
-    ```matlab
-    run('lab2_convolution.m');
-    ```
-
-- **Lab 3 (Noise Filtering Using FIR Filters)**:
-    ```matlab
-    run('lab3_fir_filtering.m');
-    ```
-
-- **Lab 4 (Stochastic Processes and Signal Analysis)**:
+ Processes and Signal Analysis)**:
     ```matlab
     run('lab4_stochastic_processes.m');
     ```
