@@ -69,7 +69,3 @@ The goal of this project is to explore various digital signal processing techniq
    ```bash
    git clone https://github.com/your-username/digital-signal-processing-lab.git
     ```
- **Processes and Signal Analysis)**:
-    ```matlab
-    run('lab4_stochastic_processes.m');
-    ```
