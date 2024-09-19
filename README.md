@@ -25,8 +25,7 @@ The goal of this project is to explore various digital signal processing techniq
 - **Tasks**:
   - Analyze how the sampling rate impacts signal quality by comparing results for various `Ts` values (e.g., 0.02s, 0.1s).
   - Calculate the Mean Squared Error (MSE) and standard deviation to assess reconstruction quality.
-  - Explore how the initial phase of the signal affects reconstruction&#8203;:contentReference[oaicite:0]{index=0}.
-
+  - Explore how the initial phase of the signal affects reconstruction.
 **Key MATLAB Functions**:
   - `fft()`: Perform the Fast Fourier Transform (FFT).
   - `conv()`: Compute the convolution between input signals.
@@ -36,7 +35,7 @@ The goal of this project is to explore various digital signal processing techniq
 - **Tasks**:
   - Calculate and visualize the frequency response of a system using `freqz()`.
   - Compute the system's output using convolution (`conv()`) and filtering (`filter()`).
-  - Compare the results obtained from `conv()` and `filter()` for system output&#8203;:contentReference[oaicite:1]{index=1}.
+  - Compare the results obtained from `conv()` and `filter()` for system output.
 
 **Key MATLAB Functions**:
   - `freqz()`: Frequency response of digital filters.
@@ -47,7 +46,7 @@ The goal of this project is to explore various digital signal processing techniq
 - **Tasks**:
   - Design FIR filters using different methods such as `fir1()`, `firls()`, and `firpm()`.
   - Apply the filters to noisy signals and compare their effectiveness using MSE values.
-  - Investigate the effect of different filter lengths on noise reduction &#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}.
+  - Investigate the effect of different filter lengths on noise reduction.
 
 **Key MATLAB Functions**:
   - `fir1()`, `firls()`, `firpm()`: FIR filter design.
@@ -58,7 +57,7 @@ The goal of this project is to explore various digital signal processing techniq
 - **Tasks**:
   - Generate stochastic signals and compute their autocorrelation and power spectral density.
   - Investigate the Law of Large Numbers and its application to stochastic processes.
-  - Estimate the autocorrelation function and spectral density of random processes&#8203;:contentReference[oaicite:4]{index=4}.
+  - Estimate the autocorrelation function and spectral density of random processes.
 
 **Key MATLAB Functions**:
   - `autocorr()`: Autocorrelation calculation.
